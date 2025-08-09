@@ -65,7 +65,7 @@ In mean estimation problem $d$-dimensional covariates are generated from a norma
 
 By Gamma regression we refer to the GLM corresponding to the Exponential Dispersion Model as a Gamma distribution which has two parameters $\phi$ and $w_\ast$, and the labels are given by $y=(1-\phi)\exp(w_\ast^T x)$. We keep $\phi$ constant and learn $w_\ast$ when $\alpha n$ labels are corrupted.
 
-1. . **Data Preparation**:
+1. **Data Preparation**:
    For $\alpha$-corruption, $n\alpha$ many labels are replaced by $\tilde{y_i}=(1-\phi)\exp(\tilde{w}^T x_i)$.
    
 2. **Run SVAM**:
